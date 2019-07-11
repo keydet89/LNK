@@ -1,0 +1,190 @@
+This file illustrates several native means for creating shortcuts on Windows systems,
+and the metadata extracted from the resulting Windows shortcut files.
+
+-------------------------------------------------------------------------------------
+Visual Basic Script #1
+
+set w = CreateObject("Wscript.shell")
+set l = w.CreateShortcut("\foo.lnk")
+l.WindowStyle = 4
+l.TargetPath = "c:\windows\system32\calc.exe"
+l.Hotkey = "Captial"
+l.Save
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Wed Apr 11 23:34:36 2018 Z
+atime              Wed Apr 11 23:34:36 2018 Z
+ctime              Wed Apr 11 23:34:36 2018 Z
+basepath           C:\Windows\System32\calc.exe
+shitemidlist       My Computer/C:\/Windows/System32/calc.exe
+**Shell Items Details (times in UTC)**
+  C:2018-04-11 21:04:34  M:2018-08-14 20:41:02  A:2018-08-14 20:41:02 Windows (9)
+  C:2018-04-11 21:04:34  M:2018-09-12 21:49:36  A:2018-09-12 21:49:36 System32 (9)
+  C:2018-04-11 23:34:38  M:2018-04-11 23:34:38  A:2018-04-11 23:34:38 calc.exe (9)
+vol_sn             22D3-06AE
+vol_type           Fixed Disk
+hotkey             0x14
+showcmd            0x4
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasLinkInfo|HasRelativePath
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{446d16b1-8dad-4870-a748-402ea43d788c}/104
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-3855314428-4085452759-4066589348-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : enzo
+New Droid ID Time     : Tue Sep 18 10:39:24 2018 UTC
+New Droid ID Seq Num  : 7175
+New Droid    Node ID  : 5c:26:0a:24:29:6f
+Birth Droid ID Time   : Tue Sep 18 10:39:24 2018 UTC
+Birth Droid ID Seq Num: 7175
+Birth Droid Node ID   : 5c:26:0a:24:29:6f
+
+-------------------------------------------------------------------------------------
+Visual Basic Script #2
+
+set w = CreateObject("Wscript.shell")
+set l = w.CreateShortcut("\foo2.lnk")
+l.TargetPath = "c:\windows\system32\calc.exe"
+l.Save
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Wed Apr 11 23:34:36 2018 Z
+atime              Wed Apr 11 23:34:36 2018 Z
+ctime              Wed Apr 11 23:34:36 2018 Z
+basepath           C:\Windows\System32\calc.exe
+shitemidlist       My Computer/C:\/Windows/System32/calc.exe
+**Shell Items Details (times in UTC)**
+  C:2018-04-11 21:04:34  M:2018-10-11 21:39:08  A:2018-10-11 21:39:08 Windows (9)
+  C:2018-04-11 21:04:34  M:2018-12-20 22:46:22  A:2018-12-20 22:46:22 System32 (9)
+  C:2018-04-11 23:34:38  M:2018-04-11 23:34:38  A:2018-04-11 23:34:38 calc.exe (9)
+vol_sn             22D3-06AE
+vol_type           Fixed Disk
+hotkey             0x14
+showcmd            0x4
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasLinkInfo|HasRelativePath
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{446d16b1-8dad-4870-a748-402ea43d788c}/104
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-3855314428-4085452759-4066589348-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : enzo
+New Droid ID Time     : Tue Sep 18 10:39:24 2018 UTC
+New Droid ID Seq Num  : 7175
+New Droid    Node ID  : 5c:26:0a:24:29:6f
+Birth Droid ID Time   : Tue Sep 18 10:39:24 2018 UTC
+Birth Droid ID Seq Num: 7175
+Birth Droid Node ID   : 5c:26:0a:24:29:6f
+
+-------------------------------------------------------------------------------------
+Right-click, Choose New, then Shortcut
+
+Metadata:
+File: d:\cases\lnk\rc_calc.lnk
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Wed Apr 11 23:34:36 2018 Z
+atime              Wed Apr 11 23:34:36 2018 Z
+ctime              Wed Apr 11 23:34:36 2018 Z
+workingdir         C:\windows\system32           
+basepath           C:\Windows\System32\calc.exe  
+shitemidlist       My Computer/C:\/Windows/System32/calc.exe
+**Shell Items Details (times in UTC)**
+  C:2018-04-11 21:04:34  M:2019-02-12 22:34:26  A:2019-02-12 22:34:26 Windows (9)
+  C:2018-04-11 21:04:34  M:2019-03-25 14:18:14  A:2019-03-25 14:18:14 System32 (9)
+  C:2018-04-11 23:34:38  M:2018-04-11 23:34:38  A:2018-04-11 23:34:38 calc.exe (9)
+vol_sn             22D3-06AE                     
+vol_type           Fixed Disk                    
+hotkey             0x0                             
+showcmd            0x1                             
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasWorkingDir|HasLinkInfo|EnableTargetMetadata
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{28636aa6-953d-11d2-b5d6-00c04fd918d0}/30     ParsingPath: C:\Windows\System32\calc.exe
+{446d16b1-8dad-4870-a748-402ea43d788c}/104
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-3855314428-4085452759-4066589348-1000
+{b725f130-47ef-101a-a5f1-02608c9eebac}/10     ItemNameDisplay: calc.exe
+{b725f130-47ef-101a-a5f1-02608c9eebac}/12     Size: 27648
+{b725f130-47ef-101a-a5f1-02608c9eebac}/14     DateModified: Wed Apr 11 23:34:36 2018 Z
+{b725f130-47ef-101a-a5f1-02608c9eebac}/15     DateCreated : Wed Apr 11 23:34:38 2018 Z
+{b725f130-47ef-101a-a5f1-02608c9eebac}/4      ItemType: Application
+{dabd30ed-0043-4789-a7f8-d013a4736622}/100    ItemFolderPathDisplay: System32 (C:\Windows)
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : enzo            
+New Droid ID Time     : Tue Sep 18 10:39:24 2018 UTC
+New Droid ID Seq Num  : 7175
+New Droid    Node ID  : 5c:26:0a:24:29:6f
+Birth Droid ID Time   : Tue Sep 18 10:39:24 2018 UTC
+Birth Droid ID Seq Num: 7175
+Birth Droid Node ID   : 5c:26:0a:24:29:6f
+
+
+-------------------------------------------------------------------------------------
+Use of PowerShell to create a Windows shortcut to calc.exe
+
+$WshShell = New-Object -ComObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("ps_calc.lnk")
+$Shortcut.TargetPath = "C:\Windows\system32\calc.exe"
+$Shortcut.Save()
+
+Metadata:
+File: d:\cases\lnk\ps_calc.tst
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Wed Apr 11 23:34:36 2018 Z
+atime              Wed Apr 11 23:34:36 2018 Z
+ctime              Wed Apr 11 23:34:36 2018 Z
+basepath           C:\Windows\System32\calc.exe  
+shitemidlist       My Computer/C:\/Windows/System32/calc.exe
+**Shell Items Details (times in UTC)**
+  C:2018-04-11 21:04:34  M:2019-02-12 22:34:26  A:2019-02-12 22:34:26 Windows (9)
+  C:2018-04-11 21:04:34  M:2019-03-12 23:25:46  A:2019-03-12 23:25:46 System32 (9)
+  C:2018-04-11 23:34:38  M:2018-04-11 23:34:38  A:2018-04-11 23:34:38 calc.exe (9)
+vol_sn             22D3-06AE                     
+vol_type           Fixed Disk                    
+hotkey             0x0                             
+showcmd            0x1                             
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasLinkInfo|HasRelativePath
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{446d16b1-8dad-4870-a748-402ea43d788c}/104
+{46588ae2-4cbc-4338-bbfc-139326986dce}/4      SID: S-1-5-21-3855314428-4085452759-4066589348-1000
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : enzo            
+New Droid ID Time     : Tue Sep 18 10:39:24 2018 UTC
+New Droid ID Seq Num  : 7175
+New Droid    Node ID  : 5c:26:0a:24:29:6f
+Birth Droid ID Time   : Tue Sep 18 10:39:24 2018 UTC
+Birth Droid ID Seq Num: 7175
+Birth Droid Node ID   : 5c:26:0a:24:29:6f

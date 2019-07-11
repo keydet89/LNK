@@ -1,0 +1,27 @@
+Links 
+
+LNK binary format
+
+Shell Item format specification
+https://github.com/libyal/libfwsi/blob/master/documentation/Windows%20Shell%20Item%20format.asciidoc
+
+Property Store format definitions
+https://github.com/libyal/libfwps/blob/master/documentation/Windows%20Property%20Store%20format.asciidoc
+
+
+https://www.uperesia.com/booby-trapped-shortcut-generator
+
+Government warning that includes the use of LNK files:
+https://www.ncsc.gov.uk/news/hostile-state-actors-compromising-uk-organisations-focus-engineering-and-industrial-control
+
+Tricky.lnk
+https://github.com/xillwillx/tricky.lnk
+
+2017 Trend Micro blog post regarding the trend of using LNK files
+https://blog.trendmicro.com/trendlabs-security-intelligence/rising-trend-attackers-using-lnk-files-download-malware/
+
+2017 ThreatPost blog article regarding StuxNet and the use of LNK files
+https://threatpost.com/stuxnet-lnk-exploits-still-widely-circulated/125089/
+
+2015 Hexacorn blog post regarding the use of HotKeys in LNK files
+http://www.hexacorn.com/blog/2015/03/13/beyond-good-ol-run-key-part-29/
